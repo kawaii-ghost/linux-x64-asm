@@ -1,2 +1,4 @@
 # gaktauapa
-Iseng aja
+## Daftar Isi
+* Hello, world!
+* Tipe Data, register 
