@@ -1,8 +1,7 @@
 # Tutorial Assembly Linux untuk arch amd64 dengan Netwide Assembler
+
 ## Daftar Isi dan To-do list
 - [X] Pengenalan dan dasar-dasar
-
-**Butuh perbaikan**
 - [ ] Tipe Data, register 
 - [ ] Instruksi dasar
 - [ ] Percabangan dan Perulangan
