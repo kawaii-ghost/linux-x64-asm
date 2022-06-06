@@ -4,13 +4,13 @@ Di dalam bab ini, kita akan mengenal tentang ukuran-ukuran data di dalam kompute
 
 ## Ukuran Data dan Model Data
 
-_Apa itu Data Model ?_
+> _Apa itu Model Data?_
 
-Model Data adalah representasi sebuah ukuran data dalam tipe data scalar di C/C++.
+Model Data adalah representasi sebuah ukuran data ke dalam tipe data tunggal di C/C++.
 
 Contohnya, Linux menggunakan Model data **lp64** sementara Windows menggunakan Model data **llp64**.
 
-Karena Linux menggunakan Data Model **lp64** berarti ukuran `long` serta `pointer` adalah 64 bit.
+Karena Linux menggunakan Model data **lp64** berarti ukuran `long` serta `pointer` adalah 64 bit.
 
 Ada sedikitnya 4 ukuran data yang harus diketahui.
 
@@ -18,8 +18,8 @@ Ada sedikitnya 4 ukuran data yang harus diketahui.
 |------|--------|
 | **byte** | 1 byte / 8 bit|
 | **word** | 2 byte / 16 bit|
-| double word / **dword** | 4 byte / 32 bit|
-| quad word / **qword** | 8 byte / 64 bit|
+| **dword** / _double word_ | 4 byte / 32 bit|
+| **qword** / _quad word_ | 8 byte / 64 bit|
 
 Representasi model data tersebut dapat dilihat dalam tabel di bawah ini
 
@@ -31,7 +31,7 @@ Representasi model data tersebut dapat dilihat dalam tabel di bawah ini
 | `long` | **qword** |
 | `long long` | **qword** |
 
-Jadi, tidak ada jaminan bahwa Ukuran suatu tipe data lebih kecil daripada tipe data lainnya dan sebaliknya.
+Jadi, tidak ada jaminan bahwa ukuran suatu tipe data lebih kecil / lebih besa dari tipe data lainnya dan sebaliknya.
 
 Karena semua OS bisa memakai model data yang berbeda.
 
@@ -47,10 +47,65 @@ Dengan begitu, kita tidak perlu khawatir akan ukuran tipe data yang berbeda kare
 
 secara otomatis akan menyesuaikan dengan model data yang digunakan.
 
+<br/>
 
+> _Apakah, ada ukuran data lainnya seelain keempat ukuran di atas ?_
+
+Yup, ada **oword** , **tword**, **yword** , **zword**.
+
+| Nama | Ukuran |
+| --- | ---|
+| **oword** / _octoword_| 16 byte / 128 bit |
+| **tword** | 10 byte |
+| **yword** / _YMM word_ | 32 byte / 256 bit |
+| **zword** / _ZMM word_ | 64 byte / 512 bit |
 
 ## Static Memori
 
+### Mendefinisikan data statis
+
+Ini cukup mudah, kita hanya perlu menulis `dx` di mana `x` awal huruf ukuran data yang kita ingin deklarasikan 
+
+contohnya `db` untuk _define byte(s)_ dan `dq` untuk _define qword(s)_.
+
+`data db 1,2,3` sama seperti `static char data[] = {1, 2, 3};`
+
+`data dq 1,2,3` sama seperti `static long data[] = {1, 2, 3};`
+
+Jika kalian masih tidak paham, perhatikan tabel dibawah ini
+
+| _define xxx_ | **dx** |
+| ----- | ----- |
+| _define byte(s)_ | `db` |
+| _define word(s)_ | `dw` |
+| _define dword(s)_ | `dd` |
+| _define qword(s)_ | `dq` |
+| _define oword(s)_ | `do` |
+| _define tword(s)_ | `dt` |
+| _define yword(s)_ | `dy` |
+| _define zword(s)_ | `dz` |
+
+<br/>
+
+### Deklarasi data statis
+
+Sama seperti mendefinisikan data statis, bedanya kalau definisi menggunakan huruf `d` , sementara deklarasi menggunakan kata `res`.
+
+`dx` menjadi `resx`.
+
+`data resb 10` sama seperti `static char data[10];`
+
+`data resq 10` sama seperti `static long data[10];`
 
 
+| _reserve xxx_ | **resx** |
+| ----- | ----- |
+| _reserve byte(s)_ | `resb` |
+| _reserve word(s)_ | `resw` |
+| _reserve dword(s)_ | `resd` |
+| _reserve qword(s)_ | `resq` |
+| _reserve oword(s)_ | `reso` |
+| _reserve tword(s)_ | `rest` |
+| _reserve yword(s)_ | `resy` |
+| _reserve zword(s)_ | `resz` |
 
