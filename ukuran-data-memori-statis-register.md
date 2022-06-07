@@ -1,6 +1,6 @@
 # Register dan Memori
 
-Di dalam bab ini, kita akan mengenal tentang ukuran-ukuran data di dalam komputer
+Di dalam bab ini, kita akan mengenal tentang ukuran-ukuran data di dalam komputer, serta memori statis dan register.
 
 ## Ukuran Data dan Model Data
 
@@ -31,9 +31,15 @@ Representasi model data tersebut dapat dilihat dalam tabel di bawah ini
 | `long` | **qword** |
 | `long long` | **qword** |
 
+Alasan kenapa `long` di Windows ukurannya 32 bit, sementara di Linux ukurannya 64 bit
+
+karena Windows menggunakan Model data **llp64** yang mengharuskan menggunakan tipe data **long long** untuk
+
+menggunakan memori sebesar 64 bit.
+
 Jadi, tidak ada jaminan bahwa ukuran suatu tipe data lebih kecil / lebih besa dari tipe data lainnya dan sebaliknya.
 
-Karena semua OS bisa memakai model data yang berbeda.
+Karena semua OS bisa saja memakai model data yang berbeda.
 
 <br/>
 
@@ -51,12 +57,12 @@ secara otomatis akan menyesuaikan dengan model data yang digunakan.
 
 > _Apakah, ada ukuran data lainnya seelain keempat ukuran di atas ?_
 
-Yup, ada **oword** , **tword**, **yword** , **zword**.
+Yup, ada **oword** , **tbyte**, **yword** , **zword**.
 
 | Nama | Ukuran |
 | --- | ---|
 | **oword** / _octoword_| 16 byte / 128 bit |
-| **tword** | 10 byte |
+| **tbyte** / _ten bytes_ | 10 byte |
 | **yword** / _YMM word_ | 32 byte / 256 bit |
 | **zword** / _ZMM word_ | 64 byte / 512 bit |
 
@@ -81,11 +87,11 @@ Jika kalian masih tidak paham, perhatikan tabel dibawah ini
 | _define dword(s)_ | `dd` |
 | _define qword(s)_ | `dq` |
 | _define oword(s)_ | `do` |
-| _define tword(s)_ | `dt` |
+| _define tbyte(s)_ | `dt` |
 | _define yword(s)_ | `dy` |
 | _define zword(s)_ | `dz` |
 
-<br/>
+-----
 
 ### Deklarasi data statis
 
@@ -105,7 +111,10 @@ Sama seperti mendefinisikan data statis, bedanya kalau definisi menggunakan huru
 | _reserve dword(s)_ | `resd` |
 | _reserve qword(s)_ | `resq` |
 | _reserve oword(s)_ | `reso` |
-| _reserve tword(s)_ | `rest` |
+| _reserve tbyte(s)_ | `rest` |
 | _reserve yword(s)_ | `resy` |
 | _reserve zword(s)_ | `resz` |
 
+<br/>
+
+Lengkapnya, kalian bisa baca doc nasm di sini https://www.nasm.us/doc/nasmdoc3.html#section-3.2
