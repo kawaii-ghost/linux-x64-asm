@@ -118,3 +118,5 @@ Sama seperti mendefinisikan data statis, bedanya kalau definisi menggunakan huru
 <br/>
 
 Lengkapnya, kalian bisa baca doc nasm di sini https://www.nasm.us/doc/nasmdoc3.html#section-3.2
+
+## Register
