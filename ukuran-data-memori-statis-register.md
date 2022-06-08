@@ -91,8 +91,6 @@ Jika kalian masih tidak paham, perhatikan tabel dibawah ini
 | _define yword(s)_ | `dy` |
 | _define zword(s)_ | `dz` |
 
------
-
 ### Deklarasi data statis
 
 Sama seperti mendefinisikan data statis, bedanya kalau definisi menggunakan huruf `d` , sementara deklarasi menggunakan kata `res`.
@@ -120,3 +118,23 @@ Sama seperti mendefinisikan data statis, bedanya kalau definisi menggunakan huru
 Lengkapnya, kalian bisa baca doc nasm di sini https://www.nasm.us/doc/nasmdoc3.html#section-3.2
 
 ## Register
+
+Ada dua jenis register, **GPR** atau _General Purpose Register_  dan _Flag Register_. 
+
+_Flag Register_ akan kita bahas di bab prosedur, fungsi, percabangan.
+
+> _TL:DR bisa langsung liat tabel register__
+
+Ada 15 GPR dalam arch x86-64.
+
+- **rax** | Accumulator Register
+- **rcx** | Counter Register
+- **rdx** | Data Register
+- **rbx** | Base Register
+- **rsi** | Source Index Register
+- **rdi** | Destination Index Register
+- **rsp** | Stack Pointer Register
+
+
+
+
