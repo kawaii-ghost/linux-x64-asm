@@ -136,7 +136,9 @@ Ada 15 GPR dalam arch x86-64.
 - **R8** sampai **R15**
 
 > _Register hanyalah nama_
+> 
 > Kalian bebas memakai register untuk operasi apapun asalkan
+> 
 > Mengikuti ABI (tidak sembarangan memakai preserved register).
 
 15 GPR tadi dibagi lagi menjadi 2, Scratch Register dan Preserved Register.
