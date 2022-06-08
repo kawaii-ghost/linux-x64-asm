@@ -123,17 +123,34 @@ Ada dua jenis register, **GPR** atau _General Purpose Register_  dan _Flag Regis
 
 _Flag Register_ akan kita bahas di bab prosedur, fungsi, percabangan.
 
-> _TL:DR bisa langsung liat tabel register__
-
 Ada 15 GPR dalam arch x86-64.
 
-- **rax** | Accumulator Register
-- **rcx** | Counter Register
-- **rdx** | Data Register
-- **rbx** | Base Register
-- **rsi** | Source Index Register
-- **rdi** | Destination Index Register
-- **rsp** | Stack Pointer Register
+- **RAX** | Accumulator Register
+- **RCX** | Counter Register
+- **RDX** | Data Register
+- **RBX** | Base Register
+- **RSP** | Stack Pointer Register
+- **RBP** | Base Poiner Register
+- **RSI** | Source Index Register
+- **RDI** | Destination Index Register
+- **R8** sampai **R15**
+
+> _Register hanyalah nama_
+> Kalian bebas memakai register untuk operasi apapun asalkan
+> Mengikuti ABI (tidak sembarangan memakai preserved register).
+
+15 GPR tadi dibagi lagi menjadi 2, Scratch Register dan Preserved Register.
+
+Scratch register adalah register yang bebas kita pakai tanpa harus menyimpan nilai aslinya
+
+**rax**, **rdi**, **rsi**, **rdx**, **rcx**, **r8**, **r9**, **r10**, **r11**.
+
+Preserved register adalah register yang tidak
+
+
+
+
+
 
 
 
