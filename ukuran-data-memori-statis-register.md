@@ -143,11 +143,19 @@ Ada 15 GPR dalam arch x86-64.
 
 15 GPR tadi dibagi lagi menjadi 2, Scratch Register dan Preserved Register.
 
-Scratch register adalah register yang bebas kita pakai tanpa harus menyimpan nilai aslinya
+Scratch register adalah register yang bebas kita pakai.
 
-**rax**, **rdi**, **rsi**, **rdx**, **rcx**, **r8**, **r9**, **r10**, **r11**.
+**rax**, **rdi**, **rsi**, **rdx**, **rcx**, **r8**, **r9**, **r10**, dan **r11**
 
-Preserved register adalah register yang tidak
+adalah scratch registers.
+
+Preserved register adalah register yang tidak bisa sembarangan dipakai.
+
+**rbx**, **rsp**, **rbp**, **r12**, **r13**, **r14**, dan **r15**
+
+adalah preserved register.
+
+
 
 
 
