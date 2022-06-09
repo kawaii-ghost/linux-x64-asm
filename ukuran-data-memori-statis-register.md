@@ -130,7 +130,7 @@ Ada 15 GPR dalam arch x86-64.
 - **RDX** | Data Register
 - **RBX** | Base Register
 - **RSP** | Stack Pointer Register
-- **RBP** | Base Poiner Register
+- **RBP** | Base Pointer Register
 - **RSI** | Source Index Register
 - **RDI** | Destination Index Register
 - **R8** sampai **R15**
@@ -145,15 +145,18 @@ Ada 15 GPR dalam arch x86-64.
 
 Scratch register adalah register yang bebas kita pakai.
 
-**rax**, **rdi**, **rsi**, **rdx**, **rcx**, **r8**, **r9**, **r10**, dan **r11**
-
-adalah scratch registers.
-
 Preserved register adalah register yang tidak bisa sembarangan dipakai.
 
-**rbx**, **rsp**, **rbp**, **r12**, **r13**, **r14**, dan **r15**
+**rax**, **rdi**, **rsi**, **rdx**, **rcx**, **r8**, **r9**, **r10**, dan **r11** adalah scratch registers.
 
-adalah preserved register.
+**rbx**, **rsp**, **rbp**, **r12**, **r13**, **r14**, dan **r15** adalah preserved register.
+
+Register-register di atas berukuran 64 bit, dan memiliki bagian kecilnya, seperti bagian 32 bit, 16 bit, dan 8 bit.
+
+![gambar](https://user-images.githubusercontent.com/86765295/172949892-966f9a4c-f692-45f3-8523-60f38d1e569d.png)
+
+
+
 
 
 
