@@ -2,7 +2,8 @@
 
 ## Daftar Isi dan To-do list
 - [X] Pengenalan dan dasar-dasar
-- [ ] Tipe Data, register 
+- [X] Tipe Data, register 
+- [ ] Mengambil input dan menampilkannya.
 - [ ] Instruksi dasar
 - [ ] Percabangan dan Perulangan
 - [ ] Fungsi
