@@ -119,6 +119,9 @@ Lengkapnya, kalian bisa baca doc nasm di sini https://www.nasm.us/doc/nasmdoc3.h
 
 ## Register
 
+
+### Pengenalan Register
+
 Ada dua jenis register, **GPR** atau _General Purpose Register_  dan _Flag Register_. 
 
 _Flag Register_ akan kita bahas di bab prosedur, fungsi, percabangan.
@@ -155,14 +158,58 @@ Register-register di atas berukuran 64 bit, dan memiliki bagian kecilnya, sepert
 
 ![gambar](https://user-images.githubusercontent.com/86765295/172949892-966f9a4c-f692-45f3-8523-60f38d1e569d.png)
 
+| 64 bit | 32 bit | 16 bit | 8 bit |
+| ------ | ------ | ----- | ----- |
+| `RAX` | `EAX` | `AX` | `AH` / `AL`|
+| `RCX` | `ECX` | `CX` | `CH` / `CL`|
+| `RDX` | `EDX` | `DX` | `DH` / `DL` |
+| `RBX` | `EBX` | `BX` | `BH` / `BL` |
+| `RSP` | `ESP` | `SP` | `SPL` |
+| `RBP` | `EBP` | `BP` | `BPL` |
+| `RSI` | `ESI` | `SI` | `SIL` |
+| `RDI` | `EDI` | `DI` | `DIL` |
+| `R8` | `R8D` | `R8W` | `R8B` |
+| - | - |- | -|
+| `R15` | `R15D` | `R15W` | `R815` |
+
+<br/>
+
+> _Apa beda dari 2 register 8 bit yang terdapat pada `rax`, `rcx`, `rdx`, dan `rbx` ?_
+
+**ax**, **cx**, **dx**, dan **bx** berukuran 16 bit yang terdiri dari 8 bit atas dan 8 bit bawah.
+
+**h** menandakan higher bits, atau bagian 8 bit atas dari register 16 bit.
+
+**l** menandakan lower bits, atau bagian 8 bit bawah dari register 16 bit.
 
 
 
+Contoh,  ukuran 8 bit.
 
+Jika 127 direpresentasikan dalam bentuk biner.
 
+`0111 1111`
 
+8 bit ini dipecah menjadi 4 bit atas dan 4 bit bawah
 
+`0111` dan `1111`
 
+ - `0111` ini menjadi 4 bit atas
+
+ - `1111` ini menjadi 4 bit bawah
+
+<br/>
+
+Ada hal yang perlu diperhatikan saat mengubah-ubah nilai suatu register.
+
+- Mengubah register 8 bit hanya akan mengubah register tersebut.
+- Mengubah register 16 bit hanya mengubah register yang ada di bawahnya.
+- Mengubah register 32 bit selain mengubah register di bawahnya, juga mengubah register 64 bit di atasnya.
+- Mengubah register 64 bit mengubah semua register yang ada di bawahnya.
+
+Jika kalian ingin mengubah register 64 bit tapi nilainya masih bisa ditampung oleh register 32 bit
+
+Ubah saja register 32 bit karena mengutak-atik register 64 bit membutuhkan encoding tambahan _(REX prefix)_.
 
 
 
