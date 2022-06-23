@@ -1,3 +1,5 @@
+# I currently stop writing this book, because of high school :U.
+
 # Tutorial Assembly Linux untuk arsitektur amd64
 
 ## Daftar Isi dan To-do list
