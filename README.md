@@ -5,8 +5,8 @@
 ## Daftar Isi dan To-do list
 - [X] Pengenalan dan dasar-dasar
 - [X] Tipe Data, register 
-- [ ] Mengambil input dan menampilkannya.
-- [ ] Instruksi dasar
+- [X] Mengambil input dan menampilkannya.
+- [ ] Instruksi Aritmatika serta basic debugging
 - [ ] Percabangan dan Perulangan
 - [ ] Fungsi
 - [ ] Alokasi heap dan stack
