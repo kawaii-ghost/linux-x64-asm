@@ -1,4 +1,7 @@
-Reallllly Suffer, Imagine being senior highschool that writing this book
+Pemilik dan pencetus ebook ini sedang hiatus.
+
+Silahkan kontak maintaner lain untuk urusan yang berhubungan dengan repository ini.
+
 # Tutorial Assembly Linux untuk arsitektur amd64
 
 ## Daftar Isi dan To-do list
