@@ -1,0 +1,223 @@
+{
+  "md/4. Instruksi Aritmatika serta basic debugging.md": {
+    "file": "_app/immutable/chunks/4. Instruksi Aritmatika serta basic debugging-06f099b8.js",
+    "src": "md/4. Instruksi Aritmatika serta basic debugging.md",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/4. Instruksi Aritmatika serta basic debugging-6636377c.md"
+    ]
+  },
+  "md/2.Ukuran-data-memori-statis-register.md": {
+    "file": "_app/immutable/chunks/2.Ukuran-data-memori-statis-register-dbd988cf.js",
+    "src": "md/2.Ukuran-data-memori-statis-register.md",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/2.Ukuran-data-memori-statis-register-e8b6b319.md"
+    ]
+  },
+  "md/LICENSE.md": {
+    "file": "_app/immutable/chunks/LICENSE-05d730a3.js",
+    "src": "md/LICENSE.md",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/LICENSE-2003829c.md"
+    ]
+  },
+  "md/1.Perkenalan.md": {
+    "file": "_app/immutable/chunks/1.Perkenalan-4c94b534.js",
+    "src": "md/1.Perkenalan.md",
+    "isDynamicEntry": true,
+    "assets": [
+      "_app/immutable/assets/1.Perkenalan-fc736c57.md"
+    ]
+  },
+  "src/lib/angle-left.svg": {
+    "file": "_app/immutable/assets/angle-left-b7f30c51.svg",
+    "src": "src/lib/angle-left.svg"
+  },
+  "src/lib/angle-right.svg": {
+    "file": "_app/immutable/assets/angle-right-76a31ee1.svg",
+    "src": "src/lib/angle-right.svg"
+  },
+  "node_modules/@fontsource/fira-mono/files/fira-mono-greek-400-normal.woff2": {
+    "file": "_app/immutable/assets/fira-mono-greek-400-normal-a8be01ce.woff2",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-greek-400-normal.woff2"
+  },
+  "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/fira-mono-cyrillic-ext-400-normal-3df7909e.woff2",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-400-normal.woff2": {
+    "file": "_app/immutable/assets/fira-mono-cyrillic-400-normal-c7d433fd.woff2",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-cyrillic-400-normal.woff2"
+  },
+  "node_modules/@fontsource/fira-mono/files/fira-mono-greek-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/fira-mono-greek-ext-400-normal-9e2fe623.woff2",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-greek-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/fira-mono/files/fira-mono-latin-400-normal.woff2": {
+    "file": "_app/immutable/assets/fira-mono-latin-400-normal-e43b3538.woff2",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-latin-400-normal.woff2"
+  },
+  "node_modules/@fontsource/fira-mono/files/fira-mono-latin-ext-400-normal.woff2": {
+    "file": "_app/immutable/assets/fira-mono-latin-ext-400-normal-6bfabd30.woff2",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-latin-ext-400-normal.woff2"
+  },
+  "node_modules/@fontsource/fira-mono/files/fira-mono-all-400-normal.woff": {
+    "file": "_app/immutable/assets/fira-mono-all-400-normal-1e3b098c.woff",
+    "src": "node_modules/@fontsource/fira-mono/files/fira-mono-all-400-normal.woff"
+  },
+  "src/routes/+layout.css": {
+    "file": "_app/immutable/assets/_layout-13322ba5.css",
+    "src": "src/routes/+layout.css"
+  },
+  "__layout-da46b06b.js": {
+    "file": "_app/immutable/chunks/_layout-da46b06b.js"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/components/error.svelte": {
+    "file": "_app/immutable/components/error.svelte-1c0cc245.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-935fee70.js",
+      "_stores-96295cf5.js"
+    ]
+  },
+  "src/routes/+page.svelte": {
+    "file": "_app/immutable/components/pages/_page.svelte-5f88decf.js",
+    "src": "src/routes/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-935fee70.js"
+    ]
+  },
+  "_preload-helper-41c905a7.js": {
+    "file": "_app/immutable/chunks/preload-helper-41c905a7.js"
+  },
+  "_stores-96295cf5.js": {
+    "file": "_app/immutable/chunks/stores-96295cf5.js",
+    "imports": [
+      "_index-935fee70.js",
+      "_singletons-9728eba3.js"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/2.js": {
+    "file": "_app/immutable/chunks/2-81d1f572.js",
+    "src": ".svelte-kit/generated/client-optimized/nodes/2.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/+page.svelte"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/1.js": {
+    "file": "_app/immutable/chunks/1-2b28992c.js",
+    "src": ".svelte-kit/generated/client-optimized/nodes/1.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/@sveltejs/kit/src/runtime/components/error.svelte"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/0.js": {
+    "file": "_app/immutable/chunks/0-f9a60cb9.js",
+    "src": ".svelte-kit/generated/client-optimized/nodes/0.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "__layout-da46b06b.js",
+      "src/routes/+layout.svelte"
+    ]
+  },
+  "_singletons-9728eba3.js": {
+    "file": "_app/immutable/chunks/singletons-9728eba3.js",
+    "imports": [
+      "_index-935fee70.js"
+    ]
+  },
+  "src/routes/+layout.js": {
+    "file": "_app/immutable/modules/pages/_layout.js-9cbb603b.js",
+    "src": "src/routes/+layout.js",
+    "isEntry": true,
+    "imports": [
+      "__layout-da46b06b.js"
+    ]
+  },
+  ".svelte-kit/generated/client-optimized/nodes/3.js": {
+    "file": "_app/immutable/chunks/3-4b9cd91e.js",
+    "src": ".svelte-kit/generated/client-optimized/nodes/3.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "src/routes/x/[...path]/+page.svelte"
+    ]
+  },
+  "md/3. Mengambil Input dan Mencetaknya.md": {
+    "file": "_app/immutable/chunks/3. Mengambil Input dan Mencetaknya-a07fc71d.js",
+    "src": "md/3. Mengambil Input dan Mencetaknya.md",
+    "isDynamicEntry": true
+  },
+  "src/routes/+layout.svelte": {
+    "file": "_app/immutable/components/pages/_layout.svelte-fb7ed2b7.js",
+    "src": "src/routes/+layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-935fee70.js",
+      "_preload-helper-41c905a7.js",
+      "_stores-96295cf5.js",
+      "_singletons-9728eba3.js"
+    ],
+    "dynamicImports": [
+      "md/1.Perkenalan.md",
+      "md/2.Ukuran-data-memori-statis-register.md",
+      "md/3. Mengambil Input dan Mencetaknya.md",
+      "md/4. Instruksi Aritmatika serta basic debugging.md",
+      "md/LICENSE.md",
+      "md/README.md"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout-13322ba5.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/angle-left-b7f30c51.svg",
+      "_app/immutable/assets/angle-right-76a31ee1.svg",
+      "_app/immutable/assets/fira-mono-cyrillic-ext-400-normal-3df7909e.woff2",
+      "_app/immutable/assets/fira-mono-all-400-normal-1e3b098c.woff",
+      "_app/immutable/assets/fira-mono-cyrillic-400-normal-c7d433fd.woff2",
+      "_app/immutable/assets/fira-mono-greek-ext-400-normal-9e2fe623.woff2",
+      "_app/immutable/assets/fira-mono-greek-400-normal-a8be01ce.woff2",
+      "_app/immutable/assets/fira-mono-latin-ext-400-normal-6bfabd30.woff2",
+      "_app/immutable/assets/fira-mono-latin-400-normal-e43b3538.woff2"
+    ]
+  },
+  "md/README.md": {
+    "file": "_app/immutable/chunks/README-b2de6886.js",
+    "src": "md/README.md",
+    "isDynamicEntry": true
+  },
+  "node_modules/@sveltejs/kit/src/runtime/client/start.js": {
+    "file": "_app/immutable/start-9c1e8306.js",
+    "src": "node_modules/@sveltejs/kit/src/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-935fee70.js",
+      "_singletons-9728eba3.js",
+      "_preload-helper-41c905a7.js"
+    ],
+    "dynamicImports": [
+      ".svelte-kit/generated/client-optimized/nodes/0.js",
+      ".svelte-kit/generated/client-optimized/nodes/1.js",
+      ".svelte-kit/generated/client-optimized/nodes/2.js",
+      ".svelte-kit/generated/client-optimized/nodes/3.js"
+    ]
+  },
+  "_index-935fee70.js": {
+    "file": "_app/immutable/chunks/index-935fee70.js"
+  },
+  "src/routes/x/[...path]/+page.svelte": {
+    "file": "_app/immutable/components/pages/x/_...path_/_page.svelte-5b40cd58.js",
+    "src": "src/routes/x/[...path]/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-935fee70.js",
+      "_stores-96295cf5.js",
+      "_singletons-9728eba3.js"
+    ]
+  }
+}
