@@ -1,4 +1,13 @@
 # Tutorial Assembly Linux untuk arsitektur amd64
+![gambar](https://github.com/kawaii-ghost/linux-x64-asm/assets/86765295/e6228c1a-6055-4a28-b65f-da0c243de4b0)
+
+## Anda ingin belajar Reverse Engineering?
+## Ingin belajar Assembly khusus Linux?
+Temukan jawaban kalian di sini :3
+
+Di sini kalian akan belajar bahasa assembly untuk arsitektur x86-64 dengan sedikit system call Linux
+
+Cr gambar kepada [raviolimavioli](https://github.com/raviolimavioli)
 
 ## Daftar Isi dan To-do list
 - [X] [Pengenalan dan dasar-dasar](https://kawaii-ghost.github.io/linux-x64-asm/1.Perkenalan)
