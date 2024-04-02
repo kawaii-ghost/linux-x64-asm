@@ -1,5 +1,5 @@
 # Tutorial Assembly Linux untuk arsitektur amd64
-![gambar](https://github.com/kawaii-ghost/linux-x64-asm/assets/86765295/e6228c1a-6055-4a28-b65f-da0c243de4b0)
+![255437305_421146296068420_5522022443166361563_n](https://github.com/kawaii-ghost/linux-x64-asm/assets/86765295/64a0bd70-d744-4aa4-8270-ff86d058d39d)
 
 ## Anda ingin belajar Reverse Engineering?
 ## Ingin belajar Assembly khusus Linux?
