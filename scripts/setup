@@ -1,0 +1,13 @@
+#!/bin/bash
+#!/bin/sh
+#!/usr/bin/env bash
+#!/usr/bin/env sh
+
+set -e
+
+echo "Installing Jekyll and Bundler..."
+gem install jekyll bundler
+
+echo "Installing required gems..."
+bundle install
+bundle check

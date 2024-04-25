@@ -1,3 +1,9 @@
+---
+title: Assembly - Mengambil Input dan Mencetaknya
+author: kawaii-ghost
+layout: post
+---
+
 # Mengambil Input dan mencetaknya
 
 Sekarang kita akan belajar cara mengambil input kemudian mencetaknya menggunakan syscall linux.
@@ -60,4 +66,3 @@ _start:
 ![image](https://user-images.githubusercontent.com/86765295/187007081-c7c105c7-f0a8-419a-b81f-8610345ad14e.png)
 
 Di sini penulis mengetik "abcd" dan menekan tombol enter yang di mana juga akan memasukkan newline ke dalam input.
-

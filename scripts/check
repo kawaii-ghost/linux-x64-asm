@@ -1,0 +1,15 @@
+#!/bin/bash
+#!/bin/sh
+#!/usr/bin/env bash
+#!/usr/bin/env sh
+
+set -e
+
+echo "Checking deprecated and invalid configuration..."
+bundle doctor
+echo "Done."
+echo
+echo "Checking outdated gems..."
+echo 'You can update the gems in the list (if any) by specifying them in the Gemfile: gem "plugin-name", "~> version.number" or by executing: bundle update plugin-name'
+bundle outdated
+echo "Done."

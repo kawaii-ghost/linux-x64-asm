@@ -1,1 +1,89 @@
-markdown: kramdown
+# Configurations
+title:            Linux x64 Assembly
+longtitle:        Linux x64 Assembly
+author:           kawaii-ghost
+# email:            sighingnow@gmail.com
+description: >
+  Belajar Assembly
+
+version:          1.0
+gitbook_version:  3.2.3
+
+url:              'https://kawaii-ghost.github.io'
+baseurl:          '/linux-x64-asm'
+rss:              RSS
+
+lang: id-ID
+timezone: Asia/Jakarta
+repo: https://github.com/kawaii-ghost/linux-x64-asm # site repo [optional]
+discushandler: '' # replace with your disqus shortname
+comments-enabled: true # true to enable disqus comments, false to hide them
+
+permalink: pretty
+
+# bootstrap: use the remote theme for the site itself
+# remote_theme: sighingnow/jekyll-gitbook
+
+toc:
+  enabled: true
+  h_min: 1
+  h_max: 3
+
+# customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
+favicon_path:     /assets/gitbook/images/favicon.ico
+
+# markdown render engine.
+markdown:         kramdown
+kramdown:
+  auto_ids:               true
+  input:                  GFM
+  math_engine:            mathjax
+  smart_quotes:           lsquo,rsquo,ldquo,rdquo
+  toc_levels:             1..6
+  syntax_highlighter:     rouge
+  syntax_highlighter_opts:
+    guess_lang:           true
+
+syntax_highlighter_style: colorful
+
+markdown_ext:             markdown,mkdown,mkdn,mkd,md
+
+# Permalinks
+permalink:                /:categories/:year-:month-:day-:title:output_ext
+
+# Disqus comments
+# disqushandler:            sighingnow
+
+exclude:
+  - _drafts
+  - scripts/
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+relative_links:
+  enabled: true
+  collections: false
+
+collections:
+  pages:
+    output: true
+    permalink: /:collection/:path/
+
+page_width: 800px
+
+destination:      ./_site
+incremental:      false
+regenerate:       true
+
+plugins:
+  - jekyll-feed
+  - jekyll-readme-index
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-relative-links

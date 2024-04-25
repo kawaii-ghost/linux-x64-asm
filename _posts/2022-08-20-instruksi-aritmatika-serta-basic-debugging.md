@@ -1,3 +1,9 @@
+---
+title: Assembly - Instruksi Aritmatika serta Basic Debugging
+author: kawaii-ghost
+layout: post
+---
+
 # Instruksi Aritmatika serta basic debugging
 
 Di bab ini kita akan belajar membuat Instuksi Aritmatika, dan juga men-debug-nya menggunakan GDB.
@@ -257,5 +263,3 @@ contoh:
 ![image](https://user-images.githubusercontent.com/92920739/186539009-18dc61a1-974c-4c42-9332-e2c5858dbf0d.png)
 
 ![image](https://user-images.githubusercontent.com/92920739/186539084-ac2297c9-515b-4438-8bfd-c3f8bc6ec5f0.png)
-
-

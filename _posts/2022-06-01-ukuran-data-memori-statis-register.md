@@ -1,3 +1,9 @@
+---
+title: Assembly - Ukuran Data Memori Statis Register
+author: kawaii-ghost
+layout: post
+---
+
 # Register dan Memori
 
 Di dalam bab ini, kita akan mengenal tentang ukuran-ukuran data di dalam komputer, serta memori statis dan register.
@@ -265,11 +271,3 @@ Dengan begitu, nilai `cx` akan sama dengan `al` yaitu 255. meskipun nilai bit me
 Ref : 
 - https://en.wikipedia.org/wiki/Signed_number_representations
 - https://en.wikipedia.org/wiki/Two%27s_complement
-
-
-
-
-
-
-
-
