@@ -1,0 +1,27 @@
+#!/bin/bash
+#!/bin/sh
+#!/usr/bin/env bash
+#!/usr/bin/env sh
+
+set -e
+
+Cleanup()
+{
+    echo "Cleaning up your disk space..."
+    bundle clean --force
+    echo "Done."
+}
+
+while true; do
+    read -p "Do you want to cleanup unnecessary gems dependecy? (y/n): " yn
+    case $yn in
+        [Yy]*)
+            Cleanup;
+            break;;
+        [Nn]*)
+            echo "Ok, fine."
+            exit;;
+        *)
+            echo "OωO: Invalid input. Please answer y/n";;
+    esac
+done

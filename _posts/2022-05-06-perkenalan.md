@@ -1,3 +1,9 @@
+---
+title: Assembly - Perkenalan
+author: kawaii-ghost
+layout: post
+---
+
 # Hello, world!
 
 ## Persiapan
@@ -473,4 +479,3 @@ Untuk tabel syscall linux x64 bisa dilihat di [sini](https://chromium.googlesour
 Untuk yang offline bisa dilihat di `man syscalls` dan nomornya 
 
 bagi yang menggunakan glibc ada di sini `/usr/include/x86_64-linux-gnu/asm/unistd_64.h`
-
