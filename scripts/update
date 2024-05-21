@@ -1,0 +1,9 @@
+#!/bin/bash
+#!/bin/sh
+#!/usr/bin/env bash
+#!/usr/bin/env sh
+
+#set -e
+
+echo "Updating outdated gems..."
+bundle update

@@ -1,3 +1,9 @@
+---
+title: Assembly - Control Flow
+author: kawaii-ghost
+layout: post
+---
+
 # Alur Program
 
 Kita akan belajar bagaimana alur program bekerja seperti percabangan, perulangan, serta fungsi bekerja.
