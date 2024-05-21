@@ -34,7 +34,6 @@ Parameter syscall `read()` kurang lebih sama seperti syscall `write()`.
 
 | SYSCALL | RAX | RDI | RSI | RDX | R10 | R8 | R9 |
 | ------- | --- | --- | --- | --- | --- | -- | -- |
-
 | read   |  0  | fd  | addr | buf | --- | -- | -- |
 
 
