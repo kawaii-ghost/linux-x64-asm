@@ -106,6 +106,7 @@ GEM
 
 PLATFORMS
   x64-mingw-ucrt
+  x86_64-linux
 
 DEPENDENCIES
   google-protobuf (~> 3.24.4)
