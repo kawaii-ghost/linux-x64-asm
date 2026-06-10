@@ -285,3 +285,71 @@ pre:has(code.language-mermaid[data-processed="true"]) {
     --c-danger-title: #c00;
     --font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
+
+@media (prefers-color-scheme: dark) {
+  /* Background utama */
+  .book,
+  .book-body,
+  .book-summary {
+    background: #1e1e2e !important;
+    color: #cdd6f4 !important;
+  }
+
+  /* Sidebar */
+  .book-summary {
+    background: #181825 !important;
+    border-right: 1px solid #313244 !important;
+  }
+
+  .book-summary ul.summary li a {
+    color: #cdd6f4 !important;
+  }
+
+  .book-summary ul.summary li.active > a {
+    color: #89b4fa !important;
+  }
+
+  /* Konten utama */
+  .book-body .page-wrapper .page-inner {
+    background: #1e1e2e !important;
+    color: #cdd6f4 !important;
+  }
+
+  /* Heading */
+  .book-body h1, .book-body h2,
+  .book-body h3, .book-body h4 {
+    color: #89dceb !important;
+  }
+
+  /* Link */
+  .book-body a {
+    color: #89b4fa !important;
+  }
+
+  /* Inline code */
+  .book-body code {
+    background: #313244 !important;
+    color: #f38ba8 !important;
+  }
+
+  /* Code block */
+  .book-body pre {
+    background: #181825 !important;
+    border: 1px solid #313244 !important;
+  }
+
+  .book-body pre code {
+    background: transparent !important;
+    color: #cdd6f4 !important;
+  }
+
+  /* Navbar atas */
+  .book-header {
+    background: #181825 !important;
+    border-bottom: 1px solid #313244 !important;
+  }
+
+  .book-header .btn {
+    color: #cdd6f4 !important;
+  }
+}
