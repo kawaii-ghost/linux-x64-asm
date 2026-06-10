@@ -10,11 +10,11 @@ Di sini kalian akan belajar bahasa assembly untuk arsitektur x86-64 dengan sedik
 Cr gambar kepada [raviolimavioli](https://github.com/raviolimavioli)
 
 ## Daftar Isi dan To-do list
-- [X] [Pengenalan dan dasar-dasar](https://kawaii-ghost.github.io/linux-x64-asm/1.Perkenalan)
-- [X] [Tipe Data, register](https://kawaii-ghost.github.io/linux-x64-asm/2.Ukuran-data-memori-statis-register) 
-- [X] [Mengambil input dan menampilkannya](https://kawaii-ghost.github.io/linux-x64-asm/3.%20Mengambil%20Input%20dan%20Mencetaknya)
-- [X] [Instruksi Aritmatika serta basic debugging](https://kawaii-ghost.github.io/linux-x64-asm/4.%20Instruksi%20Aritmatika%20serta%20basic%20debugging)
-- [X] [Percabangan dan Perulangan](https://kawaii-ghost.github.io/linux-x64-asm/5.%20Control-Flow)
+- [X] [Pengenalan dan dasar-dasar](https://kawaii-ghost.github.io/linux-x64-asm/2022-05-06-perkenalan.html)
+- [X] [Tipe Data, register](https://kawaii-ghost.github.io/linux-x64-asm/2022-06-01-ukuran-data-memori-statis-register.html) 
+- [X] [Mengambil input dan menampilkannya](https://kawaii-ghost.github.io/linux-x64-asm/2022-08-16-mengambil-input-dan-mencetaknya.html)
+- [X] [Instruksi Aritmatika serta basic debugging](https://kawaii-ghost.github.io/linux-x64-asm/2022-08-20-instruksi-aritmatika-serta-basic-debugging.html)
+- [X] [Percabangan dan Perulangan](https://kawaii-ghost.github.io/linux-x64-asm/2022-09-27-control-flow.html)
 - [ ] Fungsi
 - [ ] Alokasi heap dan stack
 - [ ] Macro
