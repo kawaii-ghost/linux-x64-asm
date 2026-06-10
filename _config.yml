@@ -33,7 +33,6 @@ toc:
 favicon_path:     /assets/gitbook/images/favicon.ico
 
 # markdown render engine.
-markdown:         kramdown
 kramdown:
   auto_ids:               true
   input:                  GFM
@@ -43,8 +42,9 @@ kramdown:
   syntax_highlighter:     rouge
   syntax_highlighter_opts:
     guess_lang:           true
+    css_class:            highlight
 
-syntax_highlighter_style: colorful
+syntax_highlighter_style: github
 
 markdown_ext:             markdown,mkdown,mkdn,mkd,md
 
