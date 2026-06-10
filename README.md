@@ -1,13 +1,18 @@
+# WARNING! UNMAINTANED SORRY
+Teman-teman bisa membaca tutorial yang kami tulis di direktori [_posts](https://github.com/kawaii-ghost/linux-x64-asm/_posts) secara manual. Untuk sekarang, gh pages kami tarik.
+
+Mohon maaf atas ketidaknyamanannya.
+
 # Tutorial Assembly Linux untuk arsitektur amd64
-![255437305_421146296068420_5522022443166361563_n](https://github.com/kawaii-ghost/linux-x64-asm/assets/86765295/64a0bd70-d744-4aa4-8270-ff86d058d39d)
+<img width="960" height="1113" alt="image" src="https://github.com/user-attachments/assets/93c092b1-e5a7-44d8-a532-f2919cdf85ac" />
+
+Attribusi: lewing@isc.tamu.edu Larry Ewing and The GIMP
 
 ## Anda ingin belajar Reverse Engineering?
 ## Ingin belajar Assembly khusus Linux?
 Temukan jawaban kalian di sini :3
 
 Di sini kalian akan belajar bahasa assembly untuk arsitektur x86-64 dengan sedikit system call Linux
-
-Cr gambar kepada [raviolimavioli](https://github.com/raviolimavioli)
 
 ## Daftar Isi dan To-do list
 - [X] [Pengenalan dan dasar-dasar](https://kawaii-ghost.github.io/linux-x64-asm/2022-05-06-perkenalan.html)
