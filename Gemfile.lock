@@ -21,7 +21,6 @@ GEM
     drb (2.2.1)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
-      http_parser.rb (~> 0)
     eventmachine (1.2.7)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
@@ -29,7 +28,6 @@ GEM
     html-pipeline (2.14.3)
       activesupport (>= 2)
       nokogiri (>= 1.4)
-    http_parser.rb (0.8.0)
     i18n (1.14.4)
       concurrent-ruby (~> 1.0)
     jekyll (4.3.3)
@@ -107,7 +105,6 @@ PLATFORMS
 
 DEPENDENCIES
   google-protobuf (~> 3.24.4)
-  http_parser.rb (~> 0.6.0)
   jekyll
   jekyll-feed
   jekyll-readme-index
